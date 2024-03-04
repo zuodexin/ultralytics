@@ -1,0 +1,14 @@
+path: robi_yolo  # dataset root dir
+train: images/train  # train images (relative to 'path') 4 images
+# val: images/vali  # val images (relative to 'path') 4 images
+val: images/test # test images (optional)
+
+# Classes
+names:
+  0: Gear
+  1: Chrome_screw
+  2: Zigzag
+  3: Eye_Bolt
+  4: D-Sub_Connector
+  5: DIN_Connector
+  6: Tube_Fitting
